@@ -15,7 +15,7 @@
 
 
 ## Installation
-The environment is assumed that "anaconda" and "Django" have already been installed.
+The environment is assumed that "Anaconda" and "Django" have already been installed.
 
 You can download a library.
 
