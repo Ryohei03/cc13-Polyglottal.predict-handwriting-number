@@ -1,38 +1,32 @@
-# disaster-water-stations-map
+# predict-handwriting-number
  (NOTE:“This was created during my time as a student at Code Chrysalis”)
 
 ## Overview
 
-`disaster-water-stations-map` 
- When an earthquake hits, we use this map for knowing nearby a water station. 
- Also, we may not deeply understand this place and it may be difficult that people find it.
- So when we choose the place, we can look at the picture of the place.
+`predict-handwriting-number` 
+ is very simple image recognition by using Python.
+ And this application doesn’t use AI libraries.
+ Because I wanna study the mechanism of deep learning.
+ For implementing neural networks, I refer to the following book.
+ [ゼロから作るDeep Learning ―Pythonで学ぶディープラーニングの理論と実装 – 2016/9/24 斎藤 康毅]
 
-![AppImage](https://raw.githubusercontent.com/Ryohei03/cc13-project.disaster-water-stations-map/master/AppImage.png)
+![upload](https://user-images.githubusercontent.com/65406188/91422017-97a07a00-e891-11ea-8592-56e558f7a4e7.png)
+![showall](https://user-images.githubusercontent.com/65406188/91422098-ae46d100-e891-11ea-900f-a8f00fa2a513.png)
 
 
 ## Installation
-The environment is assumed that "node.js" and "postgreSQL" have already been installed.
+The environment is assumed that "anaconda" and "Django" have already been installed.
 
 You can download a library.
 
 To initialize your environment:
 
-    $ yarn
-    $ yarn build
-    $ yarn start
-    $ node seeds/import.js
+    $ python manage.py migrate
 
 
 
 ## Getting Started
 
-    $ yarn start
-    Then open http://localhost:9000/ wtih brouser.
+    $ python manage.py runserver
+    Then open http://localhost:8000/app_to_predict/upload/ wtih brouser.
 
-Now the Express server has started and is ready to receive requests.
-
-## Features
-Assuming water is needed, this map highlights rivers, ponds, and seas in blue.
-
-Geolocation is used because of searching for current locations.
