@@ -1,14 +1,13 @@
-# disaster-water-stations-map
+# predict-handwriting-number
  (NOTE:“This was created during my time as a student at Code Chrysalis”)
 
 ## Overview
 
-`disaster-water-stations-map` 
+`predict-handwriting-number` 
  When an earthquake hits, we use this map for knowing nearby a water station. 
  Also, we may not deeply understand this place and it may be difficult that people find it.
  So when we choose the place, we can look at the picture of the place.
 
-![AppImage](https://raw.githubusercontent.com/Ryohei03/cc13-project.disaster-water-stations-map/master/AppImage.png)
 ![upload](https://user-images.githubusercontent.com/65406188/91422017-97a07a00-e891-11ea-8592-56e558f7a4e7.png)
 ![showall](https://user-images.githubusercontent.com/65406188/91422098-ae46d100-e891-11ea-900f-a8f00fa2a513.png)
 
