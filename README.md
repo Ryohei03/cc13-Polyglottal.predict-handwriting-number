@@ -9,6 +9,8 @@
  So when we choose the place, we can look at the picture of the place.
 
 ![AppImage](https://raw.githubusercontent.com/Ryohei03/cc13-project.disaster-water-stations-map/master/AppImage.png)
+![upload](https://user-images.githubusercontent.com/65406188/91422017-97a07a00-e891-11ea-8592-56e558f7a4e7.png)
+![showall](https://user-images.githubusercontent.com/65406188/91422098-ae46d100-e891-11ea-900f-a8f00fa2a513.png)
 
 
 ## Installation
