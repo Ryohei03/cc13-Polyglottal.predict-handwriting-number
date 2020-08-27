@@ -1,0 +1,12 @@
+# Temp:
+*~
+
+# Data:
+*.gz
+*.pkl
+media
+
+# Django:
+__pycache__/
+*.pyc
+db.sqlite3

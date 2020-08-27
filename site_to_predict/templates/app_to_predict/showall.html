@@ -1,0 +1,15 @@
+{% load static %}
+<!DOCTYPE html>
+<head>
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <link rel="stylesheet" type="text/css" href="{% static 'app_to_predict/style.css' %}">
+</head>
+
+<h1>Your Picture of Number</h1>
+
+{% for image in images %}
+    <img src='{{ MEDIA_URL }}{{image.picture}}' width=200>
+    <!-- <h2>{{ image.title }}</h2> -->
+{% endfor %}
+<h2>I assume {{ result }}</h2>
+<h2><a href="{% url 'app_to_predict:upload' %}">Upload more</a></h2>

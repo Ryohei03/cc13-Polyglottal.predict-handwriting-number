@@ -1,0 +1,14 @@
+{% load static %}
+<!DOCTYPE html>
+<head>
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <link rel="stylesheet" type="text/css" href="{% static 'app_to_predict/style.css' %}">
+</head>
+
+<h1>Please Upload</h1>
+
+<form enctype="multipart/form-data" action="{% url 'app_to_predict:upload' %}" method="post">
+{% csrf_token %}
+{{form.as_p}}
+<input type="submit" value="Upload">
+</form>
